@@ -1,0 +1,73 @@
+
+.body{
+    margin:0px;
+    padding:0px;
+    font-family: "Open Sans", 
+}
+.button {
+    transition-duration: 0.4s;
+    background-color: #4CAF50;
+  }
+  
+  .button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+  }
+
+#conteiner {
+    width: 100%;
+}
+
+#lewy {
+    float: left;
+    width: 25%;
+    background-color: whitesmoke;
+    margin-top: 20px;
+    height: 700px;
+}
+
+#prawy {
+    float: left;
+    width: 75%;
+    background-color: silver;
+    margin-top: 20px;
+}
+
+td {
+    border: 1px solid black;
+}
+
+td{
+    border:1px solid black;
+}
+
+#tr1{
+    font-weight: bold;
+}
+
+tr:nth-child(even){
+    background: #CCC;
+}
+
+tr:nth-child(odd){
+    background: #FFF;
+}
+
+ol{
+    margin-left: 10px;
+}
+
+#td {
+    border: 1px solid black;
+}
+
+#label {
+    float: left;
+    width: auto;
+}
+
+#input {
+    float: left;
+    width: auto;
+    margin-left: auto;
+}
